@@ -8,13 +8,3 @@ void myString(char *&p,int N) {
 }
 
 
-int main(){
-	char *p;
-	int N;	
-	cout << "N = ";
-	cin >> N;		
-	myString(p,N);
-	cout << p;	
-	delete [] p;
-	return 0;
-}
